@@ -6,7 +6,7 @@ body{
     background-color: skyblue;
 }
 header{
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
 }
@@ -15,7 +15,7 @@ h1{
     font-weight: 700;
 }
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     right: 20px;
 }
@@ -34,6 +34,7 @@ section{
     background-color: lightyellow;
     background-image: url(shai-1.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section.shai-2{
@@ -44,4 +45,17 @@ section.shai-3{
 }
 section.shai-4{
     background-image: url(shai-4.jpg)
+}
+
+@media (max-width: 600px) {
+    header {
+        top: 10px;
+    }
+    footer{
+        top: 10px;
+        left: 10px;
+    }
+    section{
+        background-attachment: scroll;
+    }
 }
