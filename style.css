@@ -6,7 +6,7 @@ body{
     background-color: skyblue;
 }
 header{
-    position: relative;
+    position: absolute;
     top: 20px;
     left: 20px;
 }
@@ -27,4 +27,21 @@ a{
 }
 a:hover {
     color: gray;
+}
+
+section{
+    height: 100vh;
+    background-color: lightyellow;
+    background-image: url(shai-1.jpg);
+    background-size: cover;
+}
+
+section.shai-2{
+    background-image: url(shai-2.jpg);
+}
+section.shai-3{
+    background-image: url(shai-3.jpg)
+}
+section.shai-4{
+    background-image: url(shai-4.jpg)
 }
