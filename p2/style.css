@@ -1,0 +1,61 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background-color: skyblue;
+}
+header{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+footer{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px 0px 0px;
+    transition: all .5s;
+}
+a:hover {
+    color: gray;
+}
+
+section{
+    height: 100vh;
+    background-color: lightyellow;
+    background-image: url(shai-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.shai-2{
+    background-image: url(shai-2.jpg);
+}
+section.shai-3{
+    background-image: url(shai-3.jpg)
+}
+section.shai-4{
+    background-image: url(shai-4.jpg)
+}
+
+@media (max-width: 600px) {
+    header {
+        top: 10px;
+    }
+    footer{
+        top: 10px;
+        left: 10px;
+    }
+    section{
+        background-attachment: scroll;
+    }
+}
