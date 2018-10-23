@@ -1,3 +1,4 @@
+
 body{
     font-family: futura;
     font-size: 18px;
@@ -6,7 +7,10 @@ body{
     text-align: center;
     background-color: #FFBA7A;
 }
-
+body p{
+    background-color: beige;
+    color: tan
+}
 header img{
     float: center;
     position:relative;
@@ -18,28 +22,34 @@ section.GA h1{
     font-weight: 700;
     color: beige;
     background-color: tan;
+    float: left;
 }
 section.GA p{
     font-size:450;
     color: tan;
-    background-color: beige;}
+    background-color: beige;
+    float: left;
+}
 
 section.VIP h1{
     font-size: 64px;
     font-weight: 700;
     color: beige;
     background-color: tan;
+    float: right;
 }
 section.VIP p{
     font-size:450;
     color: tan;
     background-color: beige;
+    float: right;
 }
 
 section.return h2{
     font-weight: 400;
     color: beige;
     background-color:#d45757;
+    float: left;
         
 }
 
@@ -47,6 +57,7 @@ section.details h2{
     font-weight: 400;
     color: beige;
     background-color: #d45757;
+    float: right;
 }
 
 
