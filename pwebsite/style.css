@@ -1,0 +1,52 @@
+body{
+    font-family: futura;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #48353a;
+    text-align: center;
+    background-color: #FFBA7A;
+}
+
+header img{
+    float: center;
+    position:relative;
+    margin: inherit;
+    padding: 20 40 20 40;
+}
+section.GA h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: beige;
+    background-color: tan;
+}
+section.GA p{
+    font-size:450;
+    color: tan;
+    background-color: beige;}
+
+section.VIP h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: beige;
+    background-color: tan;
+}
+section.VIP p{
+    font-size:450;
+    color: tan;
+    background-color: beige;
+}
+
+section.return h2{
+    font-weight: 400;
+    color: beige;
+    background-color:#d45757;
+        
+}
+
+section.details h2{
+    font-weight: 400;
+    color: beige;
+    background-color: #d45757;
+}
+
+
