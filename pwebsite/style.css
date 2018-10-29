@@ -34,13 +34,16 @@ body p{
     word-spacing: .5em;
     font-size: 20px;
     border-radius: 25px;
+    border-style: solid;
+    border-width: 15px;
     
 }
 header img{
     float: center;
     position:relative;
-    margin: inherit;
-    padding: 20 40 20 40;
+    margin: 40px;
+    padding: 40 40 20 40;
+    margin-top: 
 }
 * {
   box-sizing: border-box;
@@ -83,7 +86,8 @@ section.return h2{
     text-align: center;
     padding: 10px;
         margin-left: 200px;
-    margin-top: 25px;
+    margin-top: 75px;
+    
 }
 
 section.details h2{
@@ -91,10 +95,26 @@ section.details h2{
     color: beige;
     background-color: #d45757;
     float: right;
-        text-align: center;
+    text-align: center;
     padding: 10px 60px;
     margin-right: 200px;
-    margin-top: 25px;
+    margin-top: 75px;
+    
 }
 
+.button{
+    max-width: 200px;
+    max-height: 65px;
+}
 
+.button:hover {
+    background-color: #4CAF50; 
+    color: white;
+    border border-radius: 2px; 
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border: double 4px #fff;
+    border-radius: 3px;
+    transition: .4s 
+}
