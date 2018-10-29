@@ -74,6 +74,8 @@ section.return h2{
     float: left;
     text-align: center;
     padding: 10px;
+        margin-left: 200px;
+    margin-top: 25px;
 }
 
 section.details h2{
@@ -82,7 +84,9 @@ section.details h2{
     background-color: #d45757;
     float: right;
         text-align: center;
-    padding: 10px 50px;
+    padding: 10px 60px;
+    margin-right: 200px;
+    margin-top: 25px;
 }
 
 
