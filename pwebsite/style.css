@@ -9,10 +9,16 @@ body{
     background-color: #FFBA7A;
 }
 
+header nav img {
+    width: 20px;
+    float: right;
+}
+
 nav{
     background-color: #6DC1EB;
     padding: 20px 40px 20px 40px;
-    width: 100%
+    width: 100%;
+    float: right;
 }
 
 body p{
@@ -28,46 +34,46 @@ header img{
     margin: inherit;
     padding: 20 40 20 40;
 }
-section.GA h1{
-    font-size: 64px;
-    font-weight: 700;
-    color: beige;
-    background-color: tan;
-    float: left;
-    margin-top: 100px;
-    margin-left: 250px;
-}
-section.GA p{
-    font-size:450;
-    color: tan;
-    background-color: beige;
-    
-    
+* {
+  box-sizing: border-box;
 }
 
-section.VIP h1{
-    font-size: 64px;
-    font-weight: 700;
-    color: beige;
-    background-color: tan;
-    float: right;
-    margin-top: 100px;
-    margin-right: 250px;
+.passtypes {
+  background-color: red;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.ga {
+  width: 45%;
+  font-size: 24px;
+  float: left;
+  background-color:#F5FFB4;
+  color: tan;
+  padding:20px 10px;
+margin-top: 100px;
 
 }
-section.VIP p{
-    font-size:450;
-    color: tan;
-    background-color: beige;
-    float: right;
+
+.vip {
+  width: 45%;
+  float: right;
+  color: tan;
+    font-size: 24px;
+    background-color:#F5FFB4;
+     padding:20px 10px;
+    margin-top: 100px;
 }
+
 
 section.return h2{
     font-weight: 400;
     color: beige;
     background-color:#d45757;
     float: left;
-        
+    text-align: center;
+    padding: 10px;
 }
 
 section.details h2{
@@ -75,6 +81,8 @@ section.details h2{
     color: beige;
     background-color: #d45757;
     float: right;
+        text-align: center;
+    padding: 10px 50px;
 }
 
 
