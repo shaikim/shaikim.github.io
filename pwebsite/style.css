@@ -1,4 +1,5 @@
 
+
 body{
     font-family: futura;
     font-size: 18px;
@@ -7,9 +8,19 @@ body{
     text-align: center;
     background-color: #FFBA7A;
 }
+
+nav{
+    background-color: #6DC1EB;
+    padding: 20px 40px 20px 40px;
+    width: 100%
+}
+
 body p{
     background-color: beige;
-    color: tan
+    color: tan;
+    border-color: darkgreen;
+    padding: 50px 100px;
+    font-weight:400;
 }
 header img{
     float: center;
@@ -23,12 +34,15 @@ section.GA h1{
     color: beige;
     background-color: tan;
     float: left;
+    margin-top: 100px;
+    margin-left: 250px;
 }
 section.GA p{
     font-size:450;
     color: tan;
     background-color: beige;
-    float: left;
+    
+    
 }
 
 section.VIP h1{
@@ -37,6 +51,9 @@ section.VIP h1{
     color: beige;
     background-color: tan;
     float: right;
+    margin-top: 100px;
+    margin-right: 250px;
+
 }
 section.VIP p{
     font-size:450;
