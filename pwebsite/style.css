@@ -12,34 +12,18 @@ body{
 header nav img {
     width: 20px;
     float: right;
+    margin-top: 5px;
+
 }
 
 nav{
     background-color: #6DC1EB;
-    padding: 0px 40px 0px 40px;
-    width: 100%;
-    float: right;
-    text-align:
+    padding: 0px 40px 0px 0px;
+    width: 100%;    
+    word-spacing: 5em;
+    text-align: center;
+    position: static;
 }
-
-li a{
-    text-align:right;
-
-    display: ;
-}
-
-li a:hover{
-    text-shadow: 0px 0px 1px #fff;
-    -moz-transform: scale(1); 
-    -ms-transform: scale(1); 
-    -o-transform: scale(1); 
-    -webkit-transform: scale(1); 
-    transform: scale(1); 
-    text-decoration:none
-
-}
-
-
 
 body p{
     background-color: beige;
@@ -50,7 +34,7 @@ body p{
     max-width: 700px;
     float: center;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 100px;
     word-spacing: .5em;
     font-size: 20px;
     border-radius: 25px;
@@ -77,24 +61,27 @@ header img{
 }
 
 .ga {
-  width: 45%;
+  width: 30%;
+    height: 160px;
   font-size: 24px;
   float: left;
   background-color:#F5FFB4;
   color: tan;
   padding:20px 10px;
-margin-top: 100px;
-
+  margin-top: 100px;
+  margin-left: 55px;
 }
 
 .vip {
-  width: 45%;
+  width: 30%;
   float: right;
+    height: 160px;
   color: tan;
     font-size: 24px;
     background-color:#F5FFB4;
      padding:20px 10px;
     margin-top: 100px;
+    margin-right: 55px
 }
 
 
@@ -105,9 +92,14 @@ section.return h2{
     float: left;
     text-align: center;
     padding: 10px;
-        margin-left: 200px;
-    margin-top: 75px;
+    margin-left: 213px;
+    margin-top: 285px;
      margin-bottom: 25px;
+    position: absolute;
+}
+
+section.details{
+    position: relative;
 }
 
 section.details h2{
@@ -117,9 +109,11 @@ section.details h2{
     float: right;
     text-align: center;
     padding: 10px 60px;
-    margin-right: 200px;
-    margin-top: 75px;
+    margin-right: 213px;
+    position: relative;
+    margin-top: 25px;
     margin-bottom: 25px;
+    
     
 }
 
