@@ -16,10 +16,30 @@ header nav img {
 
 nav{
     background-color: #6DC1EB;
-    padding: 20px 40px 20px 40px;
+    padding: 0px 40px 0px 40px;
     width: 100%;
     float: right;
+    text-align:
 }
+
+li a{
+    text-align:right;
+
+    display: ;
+}
+
+li a:hover{
+    text-shadow: 0px 0px 1px #fff;
+    -moz-transform: scale(1); 
+    -ms-transform: scale(1); 
+    -o-transform: scale(1); 
+    -webkit-transform: scale(1); 
+    transform: scale(1); 
+    text-decoration:none
+
+}
+
+
 
 body p{
     background-color: beige;
@@ -35,7 +55,7 @@ body p{
     font-size: 20px;
     border-radius: 25px;
     border-style: solid;
-    border-width: 15px;
+    border-width: 30px;
     
 }
 header img{
@@ -87,7 +107,7 @@ section.return h2{
     padding: 10px;
         margin-left: 200px;
     margin-top: 75px;
-    
+     margin-bottom: 25px;
 }
 
 section.details h2{
@@ -99,6 +119,7 @@ section.details h2{
     padding: 10px 60px;
     margin-right: 200px;
     margin-top: 75px;
+    margin-bottom: 25px;
     
 }
 
