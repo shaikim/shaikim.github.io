@@ -82,6 +82,18 @@ div:hover img{
     opacity: 0.5;
 }
 
+div.large{
+    width: 420px;
+}
+
+div.xlarge{
+    width: 600px;
+}
+
+div.small{
+    width: 250px;
+}
+
 footer {
     width: 100%;
     overflow: hidden;
