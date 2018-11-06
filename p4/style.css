@@ -75,6 +75,7 @@ div:hover h2{
 div img {
     opacity: 1;
     transition: opacity 1s;
+    max-width: 100%;
 }
 
 div:hover img{
