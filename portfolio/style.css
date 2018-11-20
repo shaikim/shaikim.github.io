@@ -23,6 +23,11 @@ section.container h1{
     padding-left: 250px
 }
 
+section.container p{
+    float: center;
+    padding-left: 290px;
+}
+
 div.right-half {
   background: #000000;
   grid-column: 2;
