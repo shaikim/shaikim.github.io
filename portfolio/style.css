@@ -2,36 +2,43 @@
     box-sizing: border-box;
 }
 
+html,
+body,
+section,
+div {
+  height: 100vh;
+}
+
 body{
     font-family: futura;
     font-size: 25px;
     line-height: 1.3;   
 }
+
+article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
 /* grid layout */
 /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
 .container {
   display: grid;
 }
-div.left-half {
+.left-half {
   background: #ffffff;
   grid-column: 1;
 }
 
-section.container h1{
-    float: center;
-    position: relative;
-    padding-left: 250px
-}
-
-section.container p{
-    float: center;
-    padding-left: 290px;
-}
-
-div.right-half {
+.right-half {
   background: #000000;
   grid-column: 2;
 }
+
+
 
 .button{
     max-width: 200px;
