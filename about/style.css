@@ -1,0 +1,55 @@
+body{
+     color: #000;
+    height: 100%;
+    background: linear-gradient(90deg, #000 15%, #fff 15%);
+    font-family: futura;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3; 
+    color: black;
+} 
+
+header{
+    float: right;
+}
+
+div.portfolio {
+    display:inline-block;
+}
+
+div.home{
+    display: inline-block;
+}
+
+.button{
+    max-width: 200px;
+    max-height: 65px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #000; 
+    color: white;
+    border border-radius: 2px; 
+    display: inline-block;
+    padding: 0.4em 1em;
+    text-decoration: none;
+    border: double 3px #fff;
+    border-radius: 3px;
+    transition: .4s 
+}
+div {
+  height: 100vh;
+}
+
+
+div.wrap{
+    float:left;
+    margin-right: 10px;
+    position:relative;
+    top: 0px;
+}
+
+div.rightside{
+    vertical-align: baseline
+}
