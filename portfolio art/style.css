@@ -1,0 +1,51 @@
+body{
+    background: #000;
+    color:#fff;
+    font-family: futura;
+   
+}
+
+#top, #bottom, #left, #right {
+	background: #fff;
+	position: fixed;
+    margin: 10px;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 5px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 5px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+header{
+    float: right;
+    display:inline-block;
+    margin-right: 25px;
+    width: 50% 
+    
+}
+
+.button{
+    max-width: 200px;
+    max-height: 65px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #000; 
+    color: white;
+    border border-radius: 2px; 
+    display: inline-block;
+    padding: 0.4em 1em;
+    text-decoration: none;
+    border: double 3px #fff;
+    border-radius: 3px;
+    transition: .4s 
+}
