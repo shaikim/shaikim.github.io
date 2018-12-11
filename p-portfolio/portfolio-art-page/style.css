@@ -25,12 +25,19 @@ body{
 		#bottom { bottom: 0; }
 
 header{
-    float: right;
+    
     display:inline-block;
-    margin-right: 25px;
-    width: 50% 
+    width: 96% 
     
 }
+
+
+header.nav{
+    float: right;
+    position: fixed;
+}
+
+
 
 .button{
     max-width: 200px;
@@ -49,3 +56,20 @@ header{
     border-radius: 3px;
     transition: .4s 
 }
+
+div.design img{
+    max-width: 250px;
+    display: inline-block;
+}
+article {
+    overflow: hidden;
+}
+
+a img{
+    max-width: 250px;
+    padding: 25px;
+    margin-left: 25px;
+}
+
+
+
